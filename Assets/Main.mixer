@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-327976781455895441
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: de0083e5f4b8a46b68da68cb6ec2c2fa
+  m_EffectName: audioplugin_DemoSynth
+  m_MixLevel: 0cc15a7ff840345bebe6c0210b7963c0
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -37,7 +51,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
-  - {fileID: 3025143350776148207}
+  - {fileID: -327976781455895441}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -76,17 +90,3 @@ AudioMixerSnapshotController:
     890b3afae985546abaeb3d4632fa673c: 0
     447bf68e8906b43c0a3989145632acde: 0.171
   m_TransitionOverrides: {}
---- !u!244 &3025143350776148207
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_EffectID: 696a6844f7f5f495ba7b2f0c4ce02cfa
-  m_EffectName: audioplugin_DemoSynth
-  m_MixLevel: 21d6e5bb1096c4493a8b71e974ab1058
-  m_Parameters: []
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0

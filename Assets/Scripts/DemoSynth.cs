@@ -10,7 +10,7 @@ public static class DemoSynth
 #endif
     
     [DllImport(libName)]
-    private static extern IntPtr getInstance();
+    public static extern IntPtr getInstance();
 
     [DllImport(libName)]
     public static extern void noteOn(IntPtr ptr, int note, float velocity);
